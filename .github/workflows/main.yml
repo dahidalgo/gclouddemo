@@ -11,11 +11,14 @@ env:
   SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
 jobs:
   deploy:
+    permissions:
+      contents: 'read'
+      id-token: 'write'
     name: Deploy to Cloud Run
     runs-on: ubuntu-latest
     if: "contains(github.event.head_commit.message, 'to deploy')"
     steps:
-      - uses: 'actions/checkout@v3'
+      - uses: 'actions/checkout@v2'
 
       # Setup gcloud CLI
       - uses: 'google-github-actions/setup-gcloud@main'
@@ -27,7 +30,9 @@ jobs:
 
       # Build and push image to Google Container Registry
       - name: Build
-        run: gcloud builds submit --tag gcr.io/$PROJECT_ID/$APP_ID:$GITHUB_SHA
+        run: gcloud builds submit --tag gcr.io/psychic-sensor-387223/gclouddemo --project=psychic-sensor-387223
+          #gcloud builds submit --tag gcr.io/$PROJECT_ID/$APP_ID:$GITHUB_SHA
 
       - name: Deploy
-        run: gcloud run deploy $APP_ID --image gcr.io/$PROJECT_ID/$APP_ID:$GITHUB_SHA --platform managed --region $RUN_REGION --allow-unauthenticated
+        run: gcloud run deploy continuous-deployment --image gcr.io/psychic-sensor-387223/gclouddemo --platform managed --project=psychic-sensor-387223 --allow-unauthenticated --region us-east1 
+          #gcloud run deploy $APP_ID --image gcr.io/$PROJECT_ID/$APP_ID:$GITHUB_SHA --platform managed --region $RUN_REGION --allow-unauthenticated
