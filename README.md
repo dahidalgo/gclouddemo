@@ -2,14 +2,9 @@
 repositorio para charla demo de Google IO
 
 
-gcloud builds submit --tag gcr.
-io/psychic-sensor-387223/gclouddemo
---project=psychic-sensor-387223
+gcloud builds submit --tag gcr.io/psychic-sensor-387223/gclouddemo --project=psychic-sensor-387223
 
-gcloud run deploy continuous-deployment --image gcr.
-io/psychic-sensor-387223/gclouddemo --platform managed
---project=psychic-sensor-387223 --allow-unauthenticated
---region us-east1
+gcloud run deploy continuous-deployment --image gcr.io/psychic-sensor-387223/gclouddemo --platform managed --project=psychic-sensor-387223 --allow-unauthenticated --region us-east1
 
 gcloud iam service-accounts list --project=psychic-sensor-387223
 
