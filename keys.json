@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "psychic-sensor-387223",
+    "private_key_id": "8ff572b146f2c1a3d71e56877ac4e1c611eb16be",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCuerIRAvDeTREq\nxKh3ypgZbBhj5RuluN60xIMgld1dswAHXPAGIOjvCFefaVCsKV/P0Uldy42meEfl\nOZgWnswPQt6IehJWWq4Z2Ekrnx30J+9ps+BhPLyvVnixN9emwL/JebO159VDHtqn\niTT+KgrBrUSGAmBXZpXAdxcoVHumVAiHhuJSVq7xk6KSGK0RuYMlZvFY8QyhOiLG\nuQcYxD7YjMvrM2X9gdyfHCbqE1q11iLvkiE+yfEo2T+bHZ0uuo61FbYnMEt8A9P+\nLUL8sIsLSlQmUXdCa8kRmnrgCl4dhwTYo67+dT5OvPwodHxs9pZHgJ8z4hO9eJkG\nDG1iiQYJAgMBAAECggEAMgkJi4tWW8mqBKPE1CWLHK89B1iqZwnvA9Pe7rdLdhVh\nCruCMZ+6bOHtjs96zQRIb6ZK7dTz2CtiIsAzdzkut6mre2PWYmE60DqQMSw+QMg7\nBgsJa5kpWvbnQZsMAsv/s91sxdun8smkVqsoQUL5NrVjkzKXQjku9LSyNWSU2QuC\nTZB/Ck6xDM9sonfWPWsTwr3hoksQyy+gMUIvVSYYaUKmfqmApl5rfR5O6gsKwaOH\nwBG2eQiHJbnG6Wo4knlgIaxWafj/l8Al/fsjYcJ7uVpc2z45Dz/XBBRBufN7F2/c\nti1d7PBLIaCxu6rJXc2bY5PoZD+lhvMuBqnjWDvfqQKBgQDqopdudFHCP+XO/lw5\nJt5aAKGYuoHEUbCH+JfWEhXo5wO3qNhmzd4r7NUu0TubCWavevacerArQGTTS0y6\n2PorGEudHzb0eofQWW82HjJ8SH9nl8721hqFLleG0wudho1aWyvgK+XGk9Xgwxcg\nuehx/dpOPWfOy37rIMbrXiVaEwKBgQC+XdrgSEv7fl/dhawm6Y7IhCAWK+WOPUd3\nwk0ZR43CZ9YSCN+RwPcAHYHlDLFvPmXlqZoYOIXCxYtTV1jFZMpMFnL5bOObKCwy\nTv587vniB9MYEZZNkW/h5Y9RPs4++8mij9sUO5r9jCgW81HLD0kwEVI+3xpSzbub\nZmBCmCoi8wKBgEPCPJULRmkgZs9GKX/ft6qqMACZK8x0AtThd4e8pVMjE7HAMu5N\nWXG57T6d8eat6leW3Q0HaUS0Temu/zOeYXB8jamMUCR+FiaXDUTFp7K4hQJ3lq81\n2WbIoUIwRFRzfPKxDZSpWKvmGYfVDyLGTVhOBPM/THEt1zMzvf5Oq969AoGAQXAB\nzRcNB2ZpjbxlcPrYGhVQ8k4kmsB10LT5y7bNBAatj4V9VJ0ASwnZnOLAG31XiZrD\nXZAQauN9ASkFWtVKtN0CqLrFgpBMoP6GfGupegk2hw+EmyVjUEOZAFSWkQ/8P+Uz\nacEThhSnszvw4dxfTCaoHvSSF+SgmMqYTEwCMAECgYB5KV5xTJw67Tj49XkUMmVo\nG9YCsoG79TKvJKWhwF20dXCmKDLnlp2Hizitsz/2qI93iKXbbzBD3dJhuEUc6CSs\nzhzbPsMOyFCYOB8U0sfhqrOQ8EuAM+fcCi4+Iiyh0uqO6v66CsY0tcJuF0cu6Bg9\nyetCk0hfqwFl4OaP+R0oUw==\n-----END PRIVATE KEY-----\n",
+    "client_email": "github-actions@psychic-sensor-387223.iam.gserviceaccount.com",
+    "client_id": "106127858772817207514",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40psychic-sensor-387223.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
