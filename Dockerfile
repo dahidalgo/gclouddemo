@@ -10,6 +10,7 @@ WORKDIR $APP_HOME
 COPY . ./
 
 RUN pip install -U Flask
+RUN python -m pip install --upgrade pip
 
 #CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 app:app
 CMD [ "python", "./main.py"]
